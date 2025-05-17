@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using Sakuban;
+
+
+
+// Mapa (X,Y)
+Mapa mapa = new Mapa(50, 30);
+mapa.Mostrar();
